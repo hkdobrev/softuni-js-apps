@@ -1,0 +1,26 @@
+{
+  "name": "softuni-js-apps",
+  "version": "0.1.0",
+  "description": "My solution to SoftUni JS apps exam",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hkdobrev/softuni-js-apps.git"
+  },
+  "keywords": [
+    "javascript",
+    "app",
+    "softuni",
+    "parse.com",
+    "spa"
+  ],
+  "author": "Haralan Dobrev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hkdobrev/softuni-js-apps/issues"
+  },
+  "homepage": "https://github.com/hkdobrev/softuni-js-apps"
+}
