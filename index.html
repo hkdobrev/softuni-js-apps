@@ -4,7 +4,7 @@
     <title>Products &middot; Haralan Dobrev &middot; SoftUni JS Apps</title>
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
+<body id="wrapper">
     <header>
         <img class="img-header" src="img/trash.png" width="50px"/>
         <h1 class="site-header">Products</h1>
@@ -16,12 +16,14 @@
             </ul>
         </nav>
     </header>
-	<div id="target">
-		Loading...
-	</div>
+    <div id="main">
+        <div id="target">
+            Loading...
+        </div>
+    </div>
     <script data-main="index.js" src="node_modules/requirejs/require.js"></script>
     <noscript>
-    	<p>This creature needs JavaScript to breath. Please give it some JS love!</p>
+        <p>This creature needs JavaScript to breath. Please give it some JS love!</p>
     </noscript>
 </body>
 </html>

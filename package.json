@@ -28,7 +28,8 @@
     "mustache": "^0.8.2",
     "q": "^1.1.2",
     "requirejs": "^2.1.15",
-    "sammy": "https://github.com/quirkey/sammy/archive/v0.7.6.tar.gz"
+    "sammy": "https://github.com/quirkey/sammy/archive/v0.7.6.tar.gz",
+    "underscore": "^1.7.0"
   },
   "devDependencies": {
     "connect": "^3.3.3",

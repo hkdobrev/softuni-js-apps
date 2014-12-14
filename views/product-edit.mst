@@ -1,0 +1,23 @@
+<section>
+    <div class="edit-product-form">
+        <header class="main-header">Edit product</header>
+        {{# product}}
+        <form action="#/products/{{ objectId }}" method="PUT">
+            <div class="data">
+                <label for="item-name">Name:</label>
+                <input type="text" name="name" id="item-name" value="{{ name }}" placeholder="Name..."/>
+                <label for="category">Category:</label>
+                <input type="text" name="category" id="category" value="{{ category.name }}" placeholder="Category..."/>
+                <label for="price">Price:</label>
+                <input type="text" name="price" id="price" value="{{ price }}" placeholder="0.00"/>
+            </div>
+            <div class="panel">
+                <button id="edit-product-button" class="button" type="submit">Edit</button>
+                <a href="#">
+                    <a href="#/products" class="button">Cancel</a>
+                </a>
+            </div>
+        </form>
+        {{/product}}
+    </div>
+</section>

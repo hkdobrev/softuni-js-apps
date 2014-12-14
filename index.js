@@ -18,7 +18,8 @@
                 'jquery/dist/jquery'
             ],
             mustache: 'mustache/mustache',
-            sammy: 'sammy/lib/sammy'
+            sammy: 'sammy/lib/sammy',
+            underscore: 'underscore/underscore'
         }
     });
 
