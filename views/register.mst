@@ -1,0 +1,20 @@
+<section>
+    <div class="register-form">
+        <header class="main-header">Register</header>
+        <form action="#/register" method="POST">
+            <div class="data">
+                <label for="username">Username:</label>
+                <input type="text" name="username" id="username" placeholder="Username..."/>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Password..."/>
+                <label for="confirm-password">Confirm password:</label>
+                <input type="password" name="password_confirm" id="confirm-password" placeholder="Password again..."/>
+            </div>
+            <div class="panel">
+                <button class="button" id="register-button" type="submit">Register</button>
+                <span>or</span>
+                <a href="#/login">Login</a>
+            </div>
+        </form>
+    </div>
+</section>

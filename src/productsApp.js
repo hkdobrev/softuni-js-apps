@@ -1,5 +1,9 @@
-define('productsApp', ['config.parse'], function(parse) {
-	return function () {
-		console.log(parse);
-	};
+define(['config/jqueryAjaxParse', 'app/routes', 'jquery'], function(parse, routes, $) {
+    return {
+        run: function () {
+            $(function() {
+                routes.run('#/');
+            });
+        }
+    };
 });

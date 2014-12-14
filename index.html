@@ -1,11 +1,27 @@
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Products &middot; Haralan Dobrev &middot; SoftUni JS Apps</title>
+    <meta charset="UTF-8">
+    <title>Products &middot; Haralan Dobrev &middot; SoftUni JS Apps</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-	<script src="node_modules/requirejs/require.js"></script>
-	<script src="config/parse.js"></script>
-	<script src="src/productsApp.js"></script>
+    <header>
+        <img class="img-header" src="img/trash.png" width="50px"/>
+        <h1 class="site-header">Products</h1>
+        <nav id="menu">
+            <ul>
+                <li class="nav-button"><a href="#/">Home</a></li>
+                <li class="nav-button"><a href="#/login">Login</a></li>
+                <li class="nav-button"><a href="#/register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+	<div id="target">
+		Loading...
+	</div>
+    <script data-main="index.js" src="node_modules/requirejs/require.js"></script>
+    <noscript>
+    	<p>This creature needs JavaScript to breath. Please give it some JS love!</p>
+    </noscript>
 </body>
 </html>
